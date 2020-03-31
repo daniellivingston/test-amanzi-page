@@ -1,13 +1,12 @@
 require(`dotenv`).config()
 
 module.exports = {
-  pathPrefix: `/landing-page-test`,
+  pathPrefix: `/`,
   siteMetadata: {
     title: `Amanzi/ATS`,
-    author: `Daniel Livingston`,
-    laur: `LA-UR: ABCD-EFGH`,
+    author: `Daniel Livingston, David Moulton`,
     description: `Landing page for Amanzi/ATS`,
-    siteUrl: `https://daniellivingston.github.io/amanzi-landing-page`,
+    siteUrl: `https://amanzi.github.io`,
     logo: `logo.png`,
     copyright: `© 2020 Los Alamos National Laboratory. All rights reserved.`,
     headerLinks: [
