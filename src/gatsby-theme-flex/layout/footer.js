@@ -10,7 +10,10 @@ const Footer = ({ copyright, footerLinks, laur }) => {
       <div className="container row">
         <div className="col-lg-offset-1 col-lg-4 col-md-offset-1 col-md-3 col-sm-12 col-xs-12">
             <div className="footer--icon">
+              <div>
                 <Image src="logo.png"/>
+                <h4 style={{display: "inline"}}>Amanzi/ATS</h4>
+              </div>
             </div>
             <p className="footer--disclaimer">{copyright}<br/></p>
         </div>
