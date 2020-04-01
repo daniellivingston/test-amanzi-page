@@ -22,7 +22,7 @@ const PhotoGallery = ({photos}) => {
     return (
       <div>
         <PhotoItem 
-          key={idx} 
+          key={parseInt(String(groupID) + String(idx))}
           image={item.photo} 
           group={groupStr} 
           caption={item.caption} 
