@@ -12,7 +12,7 @@ const Footer = ({ copyright, footerLinks, laur }) => {
             <div className="footer--icon">
                 <Image src="logo.png"/>
             </div>
-            <p className="footer--disclaimer">{copyright}<br/><br/>{laur}</p>
+            <p className="footer--disclaimer">{copyright}<br/></p>
         </div>
         <div className="col-md-offset-0 col-lg-2 col-md-offset-1 col-md-2 col-sm-4 col-xs-6">
             <p className="footer--headline">Overview</p>

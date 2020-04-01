@@ -8,7 +8,7 @@ module.exports = {
     description: `Landing page for Amanzi/ATS`,
     siteUrl: `https://amanzi.github.io`,
     logo: `logo.png`,
-    copyright: `© 2020 Los Alamos National Laboratory. All rights reserved.`,
+    copyright: `© 2020 Amanzi/ATS Contributing National Labs (LANL, LBNL, ORNL, PNNL)`,
     headerLinks: [
       {
         title: `Home`,
