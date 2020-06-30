@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react';
 import ImageGallery from 'react-image-gallery';
 import { Player } from 'video-react';
 import "react-image-gallery/styles/css/image-gallery.css";

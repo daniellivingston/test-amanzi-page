@@ -1,7 +1,5 @@
 /** @jsx jsx */
-import React from "react"
-import { jsx, Container, Styled } from "theme-ui"
-import PropTypes from "prop-types"
+import { jsx } from "theme-ui"
 import Section from "gatsby-theme-flex/src/blocks/section"
 import Image from "gatsby-theme-flex/src/components/image"
 import "./style.css"

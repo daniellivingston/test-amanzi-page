@@ -3,7 +3,6 @@ import { jsx, Flex, Container } from "theme-ui"
 import PropTypes from "prop-types"
 import Branding from "gatsby-theme-flex/src/misc/branding"
 import HeaderNav from "gatsby-theme-flex/src/layout/header-nav"
-import ColorModeSelector from "gatsby-theme-flex/src/misc/color-mode-selector"
 import { useState } from "react"
 import Button from "gatsby-theme-flex/src/components/button"
 

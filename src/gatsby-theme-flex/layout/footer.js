@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, Flex, Container, Link } from "theme-ui"
+import { jsx } from "theme-ui"
 import PropTypes from "prop-types"
 import Image from "gatsby-theme-flex/src/components/image"
 import "./footer-style.css"
