@@ -241,10 +241,18 @@ a {
 }
 
 .footer--icon {
+    height: 50px;
+    width: 150px;
+    margin: 16px 16px 0px 0;
+}
+
+/*
+.footer--icon {
     height: 38px;
     width: 24px;
     margin: 16px 16px 32px 0;
 }
+*/
 
 .footer--disclaimer {
     font-size: 14px;

@@ -8,7 +8,7 @@ let groupID = 0;
 const PhotoItem = ({ image, group, caption, thumb }) => (
   <div className="justified-gallery">
     <LightgalleryItem group={group} src={image} subHtml={"<h3>"+caption+"</h3>"} style={{width: "192px", height: "129.8802681992337px", top: "6px", left: "6px", opacity: "1" }}>
-        <img className="gallery-img" src={thumb} alt="myimage" style={{ width: "199px", height: "135px", cursor: "pointer" }} />
+        <img className="gallery-img" src={thumb} alt="thumbnail" style={{ width: "199px", height: "135px", cursor: "pointer" }} />
     </LightgalleryItem>
   </div>
 );
